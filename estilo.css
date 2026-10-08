@@ -30,17 +30,21 @@ header {
     grid-area: topo;
     background-color: #2c3e50;
     color: #fff;
-    padding: 1rem 20px;
-    text-align: left;
+    padding: 1.5rem 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: right;
-    gap: 80px;
-    margin-top: 10px;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+
 }
 
 /* Guias */
